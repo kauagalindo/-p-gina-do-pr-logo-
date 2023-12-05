@@ -55,3 +55,20 @@ h2.narrador {
     transform-origin: left;
 }
 
+@media  screen and (max-width: 390px) {
+  .texto {
+    font-size: 18px;
+    width: 90%;
+    font-weight: 600;
+    
+  }
+
+  .texto-especial {
+    font-size: 18.5px;
+  }
+
+  h1.titulo {
+    font-size: 45px;
+  }
+
+}

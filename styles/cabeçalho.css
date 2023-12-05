@@ -30,3 +30,17 @@ h1.titulo {
     border-radius: 13px;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 390px) {
+    div.traço {
+        display: block;
+    }
+
+    div.traço:hover {
+        display: block;
+    }
+
+    h1.titulo:hover::after {
+        font-size: 8px;
+    }
+}

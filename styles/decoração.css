@@ -1,5 +1,9 @@
 div.traço:hover {
-    width: 900px; 
+    width: 300px;
+    background-color: goldenrod;
+    color: goldenrod;
+    box-shadow: 4px 4px 12px;
+
   }
   
   h1:hover, div.traço {
@@ -12,3 +16,4 @@ div.traço:hover {
       font-size: 13px;
   }
   
+
