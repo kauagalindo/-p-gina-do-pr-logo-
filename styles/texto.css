@@ -27,6 +27,8 @@ h2.narrador {
     margin: 0 auto;
     position: relative;
     cursor: pointer;
+    transition: 100s;
+    animation: animate 100s infinite ease;
 }
 
 .paragrafo {
@@ -49,6 +51,11 @@ h2.narrador {
     cursor: none;
 }
 
+.texto:hover {
+    letter-spacing: .9em;
+}
+
+
 .texto-especial:hover::after {
     content: "'As vezes odeio esse horísmo em mim...'";
     font-style: normal;
@@ -60,7 +67,7 @@ h2.narrador {
     font-size: 18px;
     width: 90%;
     font-weight: 600;
-    
+
   }
 
   .texto-especial {
@@ -70,5 +77,18 @@ h2.narrador {
   h1.titulo {
     font-size: 45px;
   }
+}
+
+@keyframes animate {
+    from {
+        letter-spacing: 0;
+        color: white;
+    }
+
+    to {
+        letter-spacing: .7px;
+        color: rgb(255, 241, 197);
+    }
+
 
 }
